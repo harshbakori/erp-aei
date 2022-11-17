@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erp_aei *.css
+recursive-include erp_aei *.csv
+recursive-include erp_aei *.html
+recursive-include erp_aei *.ico
+recursive-include erp_aei *.js
+recursive-include erp_aei *.json
+recursive-include erp_aei *.md
+recursive-include erp_aei *.png
+recursive-include erp_aei *.py
+recursive-include erp_aei *.svg
+recursive-include erp_aei *.txt
+recursive-exclude erp_aei *.pyc
